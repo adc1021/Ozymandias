@@ -27,8 +27,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
+DJANGO_SETTINGS_MODULE = 'ozymandias.settings'
 # Application definition
+settings.configure()
 
 INSTALLED_APPS = [
     'django.contrib.admin',
